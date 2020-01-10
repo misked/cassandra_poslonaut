@@ -1,0 +1,40 @@
+D:\D particija\Nastava\Napredne baze podataka NOVI NASTAVNI PROGRAM\Cassandra\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\CassandraDataLayer.dll.config
+D:\D particija\Nastava\Napredne baze podataka NOVI NASTAVNI PROGRAM\Cassandra\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\CassandraDataLayer.dll
+D:\D particija\Nastava\Napredne baze podataka NOVI NASTAVNI PROGRAM\Cassandra\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\CassandraDataLayer.pdb
+D:\D particija\Nastava\Napredne baze podataka NOVI NASTAVNI PROGRAM\Cassandra\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\Cassandra.dll
+D:\D particija\Nastava\Napredne baze podataka NOVI NASTAVNI PROGRAM\Cassandra\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\LZ4.dll
+D:\D particija\Nastava\Napredne baze podataka NOVI NASTAVNI PROGRAM\Cassandra\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\D particija\Nastava\Napredne baze podataka NOVI NASTAVNI PROGRAM\Cassandra\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\D particija\Nastava\Napredne baze podataka NOVI NASTAVNI PROGRAM\Cassandra\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\D particija\Nastava\Napredne baze podataka NOVI NASTAVNI PROGRAM\Cassandra\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\Newtonsoft.Json.dll
+D:\D particija\Nastava\Napredne baze podataka NOVI NASTAVNI PROGRAM\Cassandra\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\System.Threading.Tasks.Dataflow.dll
+D:\D particija\Nastava\Napredne baze podataka NOVI NASTAVNI PROGRAM\Cassandra\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\Cassandra.xml
+D:\D particija\Nastava\Napredne baze podataka NOVI NASTAVNI PROGRAM\Cassandra\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\D particija\Nastava\Napredne baze podataka NOVI NASTAVNI PROGRAM\Cassandra\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\D particija\Nastava\Napredne baze podataka NOVI NASTAVNI PROGRAM\Cassandra\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\D particija\Nastava\Napredne baze podataka NOVI NASTAVNI PROGRAM\Cassandra\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\Newtonsoft.Json.xml
+D:\D particija\Nastava\Napredne baze podataka NOVI NASTAVNI PROGRAM\Cassandra\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\System.Threading.Tasks.Dataflow.xml
+D:\D particija\Nastava\Napredne baze podataka NOVI NASTAVNI PROGRAM\Cassandra\CassandraWinFormsSample\CassandraDataLayer\obj\Debug\CassandraDataLayer.csprojResolveAssemblyReference.cache
+D:\D particija\Nastava\Napredne baze podataka NOVI NASTAVNI PROGRAM\Cassandra\CassandraWinFormsSample\CassandraDataLayer\obj\Debug\CassandraDataLayer.dll
+D:\D particija\Nastava\Napredne baze podataka NOVI NASTAVNI PROGRAM\Cassandra\CassandraWinFormsSample\CassandraDataLayer\obj\Debug\CassandraDataLayer.pdb
+D:\IV godina\Napredne baze podatak\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\CassandraDataLayer.dll.config
+D:\IV godina\Napredne baze podatak\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\CassandraDataLayer.dll
+D:\IV godina\Napredne baze podatak\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\CassandraDataLayer.pdb
+D:\IV godina\Napredne baze podatak\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\Cassandra.dll
+D:\IV godina\Napredne baze podatak\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\LZ4.dll
+D:\IV godina\Napredne baze podatak\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\IV godina\Napredne baze podatak\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\IV godina\Napredne baze podatak\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\IV godina\Napredne baze podatak\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\Newtonsoft.Json.dll
+D:\IV godina\Napredne baze podatak\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\System.Threading.Tasks.Dataflow.dll
+D:\IV godina\Napredne baze podatak\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\Cassandra.xml
+D:\IV godina\Napredne baze podatak\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\IV godina\Napredne baze podatak\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\IV godina\Napredne baze podatak\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\IV godina\Napredne baze podatak\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\Newtonsoft.Json.xml
+D:\IV godina\Napredne baze podatak\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\System.Threading.Tasks.Dataflow.xml
+D:\IV godina\Napredne baze podatak\CassandraWinFormsSample\CassandraDataLayer\obj\Debug\CassandraDataLayer.csproj.CoreCompileInputs.cache
+D:\IV godina\Napredne baze podatak\CassandraWinFormsSample\CassandraDataLayer\obj\Debug\CassandraDataLayer.csproj.CopyComplete
+D:\IV godina\Napredne baze podatak\CassandraWinFormsSample\CassandraDataLayer\obj\Debug\CassandraDataLayer.dll
+D:\IV godina\Napredne baze podatak\CassandraWinFormsSample\CassandraDataLayer\obj\Debug\CassandraDataLayer.pdb
+D:\IV godina\Napredne baze podatak\CassandraWinFormsSample\CassandraDataLayer\obj\Debug\CassandraDataLayer.csprojResolveAssemblyReference.cache
