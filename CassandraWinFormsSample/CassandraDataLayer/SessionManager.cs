@@ -22,7 +22,3 @@ namespace CassandraDataLayer
         }
     }
 }
-
-
-//insert into "Hotel" ("hotelID", address, city, name, phone, state, zip)  values ('1', 'Vozda Karadjordja 1', 'Nis', 'Ambasador', '123', 'Srbija', '18000');
-//select * from "Hotel" where "hotelID"='1'

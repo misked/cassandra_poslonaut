@@ -8,8 +8,8 @@ namespace CassandraDataLayer.QueryEntities
 {
     public class Komentar
     {
-        public string radnikId { get; set; }
         public string komentarId { get; set; }
+        public string radnikId { get; set; }
         public string oglasId { get; set; }
         public string poruka { get; set; }
     }

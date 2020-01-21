@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LogIn));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.radioZensko = new System.Windows.Forms.RadioButton();
             this.radioMusko = new System.Windows.Forms.RadioButton();
@@ -81,16 +82,18 @@
             // radioZensko
             // 
             this.radioZensko.AutoSize = true;
+            this.radioZensko.BackColor = System.Drawing.Color.LightGray;
             this.radioZensko.Location = new System.Drawing.Point(217, 265);
             this.radioZensko.Name = "radioZensko";
             this.radioZensko.Size = new System.Drawing.Size(89, 24);
             this.radioZensko.TabIndex = 20;
             this.radioZensko.Text = "Zensko";
-            this.radioZensko.UseVisualStyleBackColor = true;
+            this.radioZensko.UseVisualStyleBackColor = false;
             // 
             // radioMusko
             // 
             this.radioMusko.AutoSize = true;
+            this.radioMusko.BackColor = System.Drawing.Color.LightGray;
             this.radioMusko.Checked = true;
             this.radioMusko.Location = new System.Drawing.Point(56, 265);
             this.radioMusko.Name = "radioMusko";
@@ -98,7 +101,7 @@
             this.radioMusko.TabIndex = 19;
             this.radioMusko.TabStop = true;
             this.radioMusko.Text = "Musko";
-            this.radioMusko.UseVisualStyleBackColor = true;
+            this.radioMusko.UseVisualStyleBackColor = false;
             // 
             // txtGodine
             // 
@@ -118,6 +121,7 @@
             // lblGodine
             // 
             this.lblGodine.AutoSize = true;
+            this.lblGodine.BackColor = System.Drawing.Color.LightGray;
             this.lblGodine.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblGodine.Location = new System.Drawing.Point(36, 198);
             this.lblGodine.Name = "lblGodine";
@@ -129,6 +133,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.LightGray;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.Black;
             this.label8.Location = new System.Drawing.Point(36, 152);
@@ -154,6 +159,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.LightGray;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(36, 101);
             this.label3.Name = "label3";
@@ -164,6 +170,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.LightGray;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Black;
             this.label6.Location = new System.Drawing.Point(36, 55);
@@ -200,6 +207,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.LightGray;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(36, 375);
             this.label4.Name = "label4";
@@ -210,6 +218,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.LightGray;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Black;
             this.label5.Location = new System.Drawing.Point(36, 326);
@@ -247,7 +256,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.BackColor = System.Drawing.Color.LightGray;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(39, 107);
             this.label2.Name = "label2";
@@ -258,7 +267,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.BackColor = System.Drawing.Color.LightGray;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(39, 56);
@@ -271,6 +280,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(830, 503);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnLogIn);
@@ -278,9 +289,11 @@
             this.Controls.Add(this.txtUsername);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.DoubleBuffered = true;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "LogIn";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "LogIn";
+            this.Text = "Logujte se ili registrujte";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

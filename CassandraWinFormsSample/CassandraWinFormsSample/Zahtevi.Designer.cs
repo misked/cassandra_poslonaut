@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Zahtevi));
             this.listView1 = new System.Windows.Forms.ListView();
             this.btnPrihvati = new System.Windows.Forms.Button();
             this.btnOdbij = new System.Windows.Forms.Button();
@@ -37,6 +38,7 @@
             // 
             // listView1
             // 
+            this.listView1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(210)))));
             this.listView1.Location = new System.Drawing.Point(12, 52);
             this.listView1.Name = "listView1";
             this.listView1.Size = new System.Drawing.Size(800, 317);
@@ -46,6 +48,7 @@
             // 
             // btnPrihvati
             // 
+            this.btnPrihvati.ForeColor = System.Drawing.Color.Blue;
             this.btnPrihvati.Location = new System.Drawing.Point(223, 375);
             this.btnPrihvati.Name = "btnPrihvati";
             this.btnPrihvati.Size = new System.Drawing.Size(125, 48);
@@ -57,7 +60,8 @@
             // 
             // btnOdbij
             // 
-            this.btnOdbij.Location = new System.Drawing.Point(505, 375);
+            this.btnOdbij.ForeColor = System.Drawing.Color.Red;
+            this.btnOdbij.Location = new System.Drawing.Point(468, 375);
             this.btnOdbij.Name = "btnOdbij";
             this.btnOdbij.Size = new System.Drawing.Size(125, 48);
             this.btnOdbij.TabIndex = 2;
@@ -68,11 +72,12 @@
             // 
             // btnObrisi
             // 
-            this.btnObrisi.Location = new System.Drawing.Point(364, 375);
+            this.btnObrisi.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnObrisi.BackgroundImage")));
+            this.btnObrisi.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnObrisi.Location = new System.Drawing.Point(370, 375);
             this.btnObrisi.Name = "btnObrisi";
-            this.btnObrisi.Size = new System.Drawing.Size(125, 48);
+            this.btnObrisi.Size = new System.Drawing.Size(73, 63);
             this.btnObrisi.TabIndex = 3;
-            this.btnObrisi.Text = "OBRISI ZAHTEV";
             this.btnObrisi.UseVisualStyleBackColor = true;
             this.btnObrisi.Visible = false;
             this.btnObrisi.Click += new System.EventHandler(this.btnObrisi_Click);
@@ -91,12 +96,15 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Control;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(829, 450);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnObrisi);
             this.Controls.Add(this.btnOdbij);
             this.Controls.Add(this.btnPrihvati);
             this.Controls.Add(this.listView1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Zahtevi";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Zahtevi";

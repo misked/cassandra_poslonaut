@@ -38,3 +38,24 @@ D:\IV godina\Napredne baze podatak\CassandraWinFormsSample\CassandraDataLayer\ob
 D:\IV godina\Napredne baze podatak\CassandraWinFormsSample\CassandraDataLayer\obj\Debug\CassandraDataLayer.dll
 D:\IV godina\Napredne baze podatak\CassandraWinFormsSample\CassandraDataLayer\obj\Debug\CassandraDataLayer.pdb
 D:\IV godina\Napredne baze podatak\CassandraWinFormsSample\CassandraDataLayer\obj\Debug\CassandraDataLayer.csprojResolveAssemblyReference.cache
+C:\Users\_miskee\Desktop\Cassandra\cassandra_poslonaut\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\CassandraDataLayer.dll.config
+C:\Users\_miskee\Desktop\Cassandra\cassandra_poslonaut\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\CassandraDataLayer.dll
+C:\Users\_miskee\Desktop\Cassandra\cassandra_poslonaut\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\CassandraDataLayer.pdb
+C:\Users\_miskee\Desktop\Cassandra\cassandra_poslonaut\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\Cassandra.dll
+C:\Users\_miskee\Desktop\Cassandra\cassandra_poslonaut\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\LZ4.dll
+C:\Users\_miskee\Desktop\Cassandra\cassandra_poslonaut\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\_miskee\Desktop\Cassandra\cassandra_poslonaut\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\_miskee\Desktop\Cassandra\cassandra_poslonaut\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\_miskee\Desktop\Cassandra\cassandra_poslonaut\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\_miskee\Desktop\Cassandra\cassandra_poslonaut\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\System.Threading.Tasks.Dataflow.dll
+C:\Users\_miskee\Desktop\Cassandra\cassandra_poslonaut\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\Cassandra.xml
+C:\Users\_miskee\Desktop\Cassandra\cassandra_poslonaut\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\_miskee\Desktop\Cassandra\cassandra_poslonaut\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\_miskee\Desktop\Cassandra\cassandra_poslonaut\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\_miskee\Desktop\Cassandra\cassandra_poslonaut\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\_miskee\Desktop\Cassandra\cassandra_poslonaut\CassandraWinFormsSample\CassandraDataLayer\bin\Debug\System.Threading.Tasks.Dataflow.xml
+C:\Users\_miskee\Desktop\Cassandra\cassandra_poslonaut\CassandraWinFormsSample\CassandraDataLayer\obj\Debug\CassandraDataLayer.csprojResolveAssemblyReference.cache
+C:\Users\_miskee\Desktop\Cassandra\cassandra_poslonaut\CassandraWinFormsSample\CassandraDataLayer\obj\Debug\CassandraDataLayer.csproj.CoreCompileInputs.cache
+C:\Users\_miskee\Desktop\Cassandra\cassandra_poslonaut\CassandraWinFormsSample\CassandraDataLayer\obj\Debug\CassandraDataLayer.csproj.CopyComplete
+C:\Users\_miskee\Desktop\Cassandra\cassandra_poslonaut\CassandraWinFormsSample\CassandraDataLayer\obj\Debug\CassandraDataLayer.dll
+C:\Users\_miskee\Desktop\Cassandra\cassandra_poslonaut\CassandraWinFormsSample\CassandraDataLayer\obj\Debug\CassandraDataLayer.pdb

@@ -46,6 +46,9 @@
             this.btnLajk = new System.Windows.Forms.Button();
             this.btnPosaljiZahtev = new System.Windows.Forms.Button();
             this.btnBrojZahteva = new System.Windows.Forms.Button();
+            this.btnKomentar = new System.Windows.Forms.Button();
+            this.btnSviKomentari = new System.Windows.Forms.Button();
+            this.chkVoznja = new System.Windows.Forms.CheckBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -80,7 +83,7 @@
             // lblBrojTelefona
             // 
             this.lblBrojTelefona.AutoSize = true;
-            this.lblBrojTelefona.Location = new System.Drawing.Point(6, 167);
+            this.lblBrojTelefona.Location = new System.Drawing.Point(22, 167);
             this.lblBrojTelefona.Name = "lblBrojTelefona";
             this.lblBrojTelefona.Size = new System.Drawing.Size(68, 23);
             this.lblBrojTelefona.TabIndex = 4;
@@ -89,7 +92,7 @@
             // lblGodine
             // 
             this.lblGodine.AutoSize = true;
-            this.lblGodine.Location = new System.Drawing.Point(6, 230);
+            this.lblGodine.Location = new System.Drawing.Point(22, 232);
             this.lblGodine.Name = "lblGodine";
             this.lblGodine.Size = new System.Drawing.Size(68, 23);
             this.lblGodine.TabIndex = 5;
@@ -155,7 +158,7 @@
             // 
             // btnDodajOglas
             // 
-            this.btnDodajOglas.Location = new System.Drawing.Point(487, 452);
+            this.btnDodajOglas.Location = new System.Drawing.Point(563, 452);
             this.btnDodajOglas.Name = "btnDodajOglas";
             this.btnDodajOglas.Size = new System.Drawing.Size(155, 63);
             this.btnDodajOglas.TabIndex = 9;
@@ -166,7 +169,7 @@
             // 
             // btnObrisiOglas
             // 
-            this.btnObrisiOglas.Location = new System.Drawing.Point(308, 452);
+            this.btnObrisiOglas.Location = new System.Drawing.Point(728, 452);
             this.btnObrisiOglas.Name = "btnObrisiOglas";
             this.btnObrisiOglas.Size = new System.Drawing.Size(155, 63);
             this.btnObrisiOglas.TabIndex = 10;
@@ -177,7 +180,7 @@
             // 
             // btnZahtevi
             // 
-            this.btnZahtevi.Location = new System.Drawing.Point(1009, 372);
+            this.btnZahtevi.Location = new System.Drawing.Point(983, 372);
             this.btnZahtevi.Name = "btnZahtevi";
             this.btnZahtevi.Size = new System.Drawing.Size(155, 63);
             this.btnZahtevi.TabIndex = 12;
@@ -188,7 +191,7 @@
             // 
             // btnSvojiZahtevi
             // 
-            this.btnSvojiZahtevi.Location = new System.Drawing.Point(1009, 372);
+            this.btnSvojiZahtevi.Location = new System.Drawing.Point(983, 372);
             this.btnSvojiZahtevi.Name = "btnSvojiZahtevi";
             this.btnSvojiZahtevi.Size = new System.Drawing.Size(155, 63);
             this.btnSvojiZahtevi.TabIndex = 13;
@@ -201,7 +204,7 @@
             // 
             this.btnLajk.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnLajk.BackgroundImage")));
             this.btnLajk.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnLajk.Location = new System.Drawing.Point(235, 452);
+            this.btnLajk.Location = new System.Drawing.Point(85, 471);
             this.btnLajk.Name = "btnLajk";
             this.btnLajk.Size = new System.Drawing.Size(67, 63);
             this.btnLajk.TabIndex = 14;
@@ -211,7 +214,7 @@
             // 
             // btnPosaljiZahtev
             // 
-            this.btnPosaljiZahtev.Location = new System.Drawing.Point(487, 452);
+            this.btnPosaljiZahtev.Location = new System.Drawing.Point(563, 452);
             this.btnPosaljiZahtev.Name = "btnPosaljiZahtev";
             this.btnPosaljiZahtev.Size = new System.Drawing.Size(155, 63);
             this.btnPosaljiZahtev.TabIndex = 15;
@@ -224,7 +227,7 @@
             // 
             this.btnBrojZahteva.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnBrojZahteva.Enabled = false;
-            this.btnBrojZahteva.Location = new System.Drawing.Point(308, 452);
+            this.btnBrojZahteva.Location = new System.Drawing.Point(728, 452);
             this.btnBrojZahteva.Name = "btnBrojZahteva";
             this.btnBrojZahteva.Size = new System.Drawing.Size(155, 63);
             this.btnBrojZahteva.TabIndex = 16;
@@ -233,11 +236,49 @@
             this.btnBrojZahteva.Visible = false;
             this.btnBrojZahteva.Click += new System.EventHandler(this.btnBrojZahteva_Click);
             // 
+            // btnKomentar
+            // 
+            this.btnKomentar.Location = new System.Drawing.Point(158, 471);
+            this.btnKomentar.Name = "btnKomentar";
+            this.btnKomentar.Size = new System.Drawing.Size(155, 63);
+            this.btnKomentar.TabIndex = 17;
+            this.btnKomentar.Text = "DODAJ KOMENTAR";
+            this.btnKomentar.UseVisualStyleBackColor = true;
+            this.btnKomentar.Visible = false;
+            this.btnKomentar.Click += new System.EventHandler(this.btnKomentar_Click);
+            // 
+            // btnSviKomentari
+            // 
+            this.btnSviKomentari.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSviKomentari.BackgroundImage")));
+            this.btnSviKomentari.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnSviKomentari.Location = new System.Drawing.Point(12, 471);
+            this.btnSviKomentari.Name = "btnSviKomentari";
+            this.btnSviKomentari.Size = new System.Drawing.Size(67, 63);
+            this.btnSviKomentari.TabIndex = 18;
+            this.btnSviKomentari.UseVisualStyleBackColor = true;
+            this.btnSviKomentari.Click += new System.EventHandler(this.btnSviKomentari_Click);
+            // 
+            // chkVoznja
+            // 
+            this.chkVoznja.AutoSize = true;
+            this.chkVoznja.Location = new System.Drawing.Point(12, 434);
+            this.chkVoznja.Name = "chkVoznja";
+            this.chkVoznja.Size = new System.Drawing.Size(283, 21);
+            this.chkVoznja.TabIndex = 19;
+            this.chkVoznja.Text = "Samo oglasi sa organizovanom voznjom";
+            this.chkVoznja.UseVisualStyleBackColor = true;
+            this.chkVoznja.CheckedChanged += new System.EventHandler(this.CheckBoxZaVoznju);
+            // 
             // Pregled
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(210)))));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1261, 546);
+            this.Controls.Add(this.chkVoznja);
+            this.Controls.Add(this.btnSviKomentari);
+            this.Controls.Add(this.btnKomentar);
             this.Controls.Add(this.btnBrojZahteva);
             this.Controls.Add(this.btnPosaljiZahtev);
             this.Controls.Add(this.btnLajk);
@@ -248,8 +289,10 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.groupBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Pregled";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Poslonaut";
             this.Load += new System.EventHandler(this.Pregled_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -278,5 +321,8 @@
         private System.Windows.Forms.Button btnLajk;
         private System.Windows.Forms.Button btnPosaljiZahtev;
         private System.Windows.Forms.Button btnBrojZahteva;
+        private System.Windows.Forms.Button btnKomentar;
+        private System.Windows.Forms.Button btnSviKomentari;
+        private System.Windows.Forms.CheckBox chkVoznja;
     }
 }

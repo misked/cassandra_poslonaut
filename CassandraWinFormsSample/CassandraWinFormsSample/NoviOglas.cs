@@ -28,7 +28,6 @@ namespace CassandraWinFormsSample
             txtIme.Text = globalniPotrazivac.ime;
             txtPrezime.Text = globalniPotrazivac.prezime;
             txtEmail.Text = globalniPotrazivac.email;
-            txtLajkovi.Text = "0";
         }
 
         private void btnDodaj_Click(object sender, EventArgs e)

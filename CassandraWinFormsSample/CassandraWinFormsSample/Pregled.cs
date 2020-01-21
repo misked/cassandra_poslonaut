@@ -42,6 +42,7 @@ namespace CassandraWinFormsSample
             btnSvojiZahtevi.Visible = true;
             btnBrojZahteva.Visible = true;
             btnPosaljiZahtev.Visible = true;
+            btnKomentar.Visible = true;
             #endregion
         }
 
@@ -63,12 +64,12 @@ namespace CassandraWinFormsSample
                 novi.potrazivacId = this.listView1.SelectedItems[0].SubItems[5].Text;
                 DataProvider.AddZahtev(novi);
                 this.listView1.SelectedItems[0].BackColor=Color.Green;
-                MessageBox.Show("Zahtev je poslat na oglas " + novi.oglasId + ", sacekajte potvrdu osobe koja je izdala oglas.");
+                MessageBox.Show("Zahtev je poslat na oglas " + novi.oglasId + ". Sacekajte potvrdu osobe koja je izdala oglas.");
                 this.brojZahteva--;
                 btnBrojZahteva.Text = "BROJ MOGUCIH ZAHTEVA: " + this.brojZahteva.ToString();
                 if (brojZahteva == 0)
                     btnPosaljiZahtev.Enabled = false;
-                //posle nekog vremena omoguciti slanje zahteva
+                //posle nekog vremena omoguciti slanje zahteva, dugme za slanje zahteva mora da se Enable-uje i da se stavi broj mogucih zahteva na 3
             }
             else MessageBox.Show("Niste selektovali ni jedan oglas.");
         }
@@ -86,6 +87,18 @@ namespace CassandraWinFormsSample
             else MessageBox.Show("Niste selektovali ni jedan oglas.");
         }
 
+        private void btnKomentar_Click(object sender, EventArgs e)
+        {
+            if (this.listView1.SelectedItems.Count > 0)
+            {
+                String nazivoglasa = this.listView1.SelectedItems[0].SubItems[0].Text;
+                Komentari komentari = new Komentari(nazivoglasa, globalniRadnik.email);
+                komentari.ShowDialog();
+                this.refreshFunkcija();
+            }
+            else MessageBox.Show("Niste selektovali ni jedan oglas.");
+        }
+
         public void popuniZaRadnika()
         {
             oglasi = DataProvider.vratiSveOglase();
@@ -96,7 +109,12 @@ namespace CassandraWinFormsSample
                 if (oglas.voznja == true)
                     voznjaUStringu = "+";
                 else voznjaUStringu = "-";
-                this.add(oglas.nazivoglasa, oglas.mestoposla, oglas.brojradnika.ToString(), oglas.trenutnibrojradnika.ToString(), voznjaUStringu, oglas.potrazivacEmail, lajkovi);
+                if (chkVoznja.Checked == true)
+                {
+                    if (oglas.voznja == true)
+                        this.add(oglas.nazivoglasa, oglas.mestoposla, oglas.brojradnika.ToString(), oglas.trenutnibrojradnika.ToString(), voznjaUStringu, oglas.potrazivacEmail, lajkovi);
+                }
+                else this.add(oglas.nazivoglasa, oglas.mestoposla, oglas.brojradnika.ToString(), oglas.trenutnibrojradnika.ToString(), voznjaUStringu, oglas.potrazivacEmail, lajkovi);
             }
             lblGodine.Visible = true;
             lblIme.Text = globalniRadnik.ime;
@@ -105,7 +123,7 @@ namespace CassandraWinFormsSample
             lblEmail.Text = "Email: " + globalniRadnik.email;
             lblPol.Text = "Pol: " + globalniRadnik.pol;
             lblGodine.Text = "Broj godina: " + globalniRadnik.brojgodina.ToString();
-            btnBrojZahteva.Text += this.brojZahteva.ToString();
+            btnBrojZahteva.Text = "Broj mogucih zahteva: "+ this.brojZahteva.ToString();
         }
         #endregion
 
@@ -132,11 +150,33 @@ namespace CassandraWinFormsSample
             else this.popuniZaPotrazivaca();
         }
 
-        public void add(string naziv, string mesto, string potrebanBr,string trenutniBr, string prevoz, string potrazivacEmail, string brojLajkova)
+        public void add(string naziv, string mesto, string potrebanBr, string trenutniBr, string prevoz, string potrazivacEmail, string brojLajkova)
         {
             String[] row = { naziv, mesto, potrebanBr, trenutniBr , prevoz, potrazivacEmail, brojLajkova };
             ListViewItem item = new ListViewItem(row);
             listView1.Items.Add(item);
+        }
+
+        private void btnSviKomentari_Click(object sender, EventArgs e)
+        {
+            if (this.listView1.SelectedItems.Count > 0)
+            {
+                String nazivoglasa = this.listView1.SelectedItems[0].SubItems[0].Text;
+                SviKomentari komentari = new SviKomentari(nazivoglasa);
+                komentari.ShowDialog();
+                this.refreshFunkcija();
+            }
+            else MessageBox.Show("Niste selektovali ni jedan oglas.");
+        }
+
+        private void CheckBoxZaVoznju(object sender, EventArgs e)
+        {
+            if (chkVoznja.Checked == true)
+            {
+                if (RadnikBoolean == true) oglasi = DataProvider.vratiSveOglaseKojiImajuVoznju();
+                else oglasi = DataProvider.vratiSveOglaseKojiImajuVoznjuZaDatogPotrazivaca(globalniPotrazivac.email);
+            }
+            this.refreshFunkcija();
         }
         #endregion
 
@@ -152,6 +192,7 @@ namespace CassandraWinFormsSample
             btnDodajOglas.Visible = true;
             btnObrisiOglas.Visible = true;
             btnZahtevi.Visible = true;
+            btnKomentar.Visible = false;
             btnLajk.Visible = false;
             btnSvojiZahtevi.Visible = false;
             btnBrojZahteva.Visible = false;
@@ -169,7 +210,12 @@ namespace CassandraWinFormsSample
                 if (oglas.voznja == true)
                     voznjaUStringu = "+";
                 else voznjaUStringu = "-";
-                this.add(oglas.nazivoglasa, oglas.mestoposla, oglas.brojradnika.ToString() , oglas.trenutnibrojradnika.ToString(), voznjaUStringu, oglas.potrazivacEmail, lajkovi);
+                if (chkVoznja.Checked == true)
+                {
+                    if (oglas.voznja == true)
+                        this.add(oglas.nazivoglasa, oglas.mestoposla, oglas.brojradnika.ToString(), oglas.trenutnibrojradnika.ToString(), voznjaUStringu, oglas.potrazivacEmail, lajkovi);
+                }
+                else this.add(oglas.nazivoglasa, oglas.mestoposla, oglas.brojradnika.ToString(), oglas.trenutnibrojradnika.ToString(), voznjaUStringu, oglas.potrazivacEmail, lajkovi);
             }
             lblIme.Text = globalniPotrazivac.ime;
             lblPrezime.Text = globalniPotrazivac.prezime;
@@ -226,7 +272,8 @@ namespace CassandraWinFormsSample
 
         }
 
-        #endregion
 
+        #endregion
+                
     }
 }
